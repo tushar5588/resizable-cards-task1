@@ -1,0 +1,124 @@
+
+/*main div*/
+.wrapper {
+  background: url(https://wallpapercave.com/wp/PTUaSt4.jpg);
+  color: #c7c4c4;
+  font-size: 14px;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+/* cards area*/
+
+
+.cards_wrap {
+ display: flex;
+  flex-wrap: wrap;
+
+
+  width: 95%;
+  margin: auto;
+
+ justify-content: center;
+}
+
+/* card 1 */
+.cards_wrap .card_item {
+  width: 25%;
+  height: 390px;
+  padding: 10px;
+  resize: both;
+  overflow: auto;
+}
+
+.cards_wrap .buttons {
+  margin-top: 30px;
+}
+.cards_wrap .button {
+  font-size: 12px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background: radial-gradient(100% 100% at 100% 0%, #f5c903 0%, #e67e1d 100%);
+  padding: 8px 20px;
+  border-radius: 0.3em;
+  color: #fff;
+  height: 30px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.cards_wrap .button:hover {
+  background: rgb(133, 66, 4);
+}
+
+.cards_wrap .card_inner {
+  height: 100%;
+}
+
+.cards_wrap .card_bottom {
+  padding: 15px;
+  background: url(https://www.wallpapertip.com/wmimgs/27-275819_cool-hd-plain-backgrounds.jpg);
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.562) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  height: 100%;
+}
+
+.cards_wrap .card_bottom .card_category {
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.cards_wrap .card_bottom .card_info {
+  padding: 15px;
+  margin: 30px 0;
+  border: 1px dashed #edeff0;
+}
+
+.cards_wrap .card_bottom .card_info .title {
+  color: #f1cb85;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.cards_wrap .card_bottom .card_creator {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* card2 */
+
+.cards_wrap .card_item2 {
+  width: 60%;
+  padding: 10px;
+  resize: both;
+  overflow: auto;
+}
+
+/* card3 */
+
+.cards_wrap .card_item3 {
+  width: 85%;
+  padding: 10px;
+  resize: both;
+  overflow: auto;
+}
+
+@media (max-width: 1024px) {
+  
+  .cards_wrap .card_item {
+    width: 25%;
+  }
+ 
+  .cards_wrap .card_item3 {
+    width: 85%;
+  }
+  .cards_wrap .card_item2 {
+    width: 60%;
+  }
+}
