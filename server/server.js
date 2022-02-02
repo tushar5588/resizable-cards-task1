@@ -56,7 +56,7 @@ app.route("/update/:id").put((req, res, next) => {
         .save()
         .then(res.status(200).send({ message: "Data updated." }))
         .catch((err) => {
-          res.status(400).send({ message: "Unable to update!" });
+          res.status(500).send({ message: "Unable to update!" });
         });
     }
   });
