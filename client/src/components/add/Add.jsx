@@ -29,9 +29,9 @@ const Add = () => {
   const [subheading, setSubheading] = useState(apiData.subheading);
   const [text, setText] = useState(apiData.text);
   const data = {
-    heading: heading,
-    subheading: subheading,
-    text: text,
+    heading,
+    subheading,
+    text,
     api: apiData.api + 1,
   };
 
